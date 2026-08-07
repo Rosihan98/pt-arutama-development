@@ -1060,3 +1060,443 @@ body {
     background: #FFFFFF;
 
 }
+
+/* ===========================
+   MOBILE RESPONSIVE
+=========================== */
+
+@media (max-width: 768px) {
+
+    .hero-title {
+        font-size: 42px;
+        line-height: 1.2;
+    }
+
+}
+
+.hero {
+
+    min-height: 90vh;
+
+}
+
+@media (max-width:768px) {
+
+    .hero-content h1 {
+        font-size: 48px;
+        line-height: 1.15;
+    }
+
+}
+
+@media(max-width:768px) {
+
+    .btn-outline-custom {
+
+        margin-left: 0;
+
+    }
+
+}
+
+.hero-badge {
+
+    margin-top: 25px;
+
+}
+
+.navbar-brand {
+
+    font-size: 17px;
+
+}
+
+@media(max-width:768px) {
+
+    .whatsapp-float {
+
+        width: 55px;
+
+        height: 55px;
+
+        font-size: 28px;
+
+        right: 15px;
+
+        bottom: 15px;
+
+    }
+
+}
+
+/* ==================================================
+        RESPONSIVE MOBILE & TABLET
+        PT. ARUTAMA DEVELOPMENT
+================================================== */
+
+@media (max-width:768px) {
+
+    /* =========================
+        NAVBAR
+========================= */
+
+    .custom-navbar {
+        padding: 12px 0;
+    }
+
+    .navbar-brand {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    .navbar-brand img {
+        width: 42px;
+        margin-right: 8px;
+    }
+
+    .navbar-nav {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        margin: 12px 0;
+        font-size: 17px;
+    }
+
+    .navbar-social {
+        justify-content: center;
+        margin: 20px 0 10px;
+    }
+
+    /* =========================
+        HERO
+========================= */
+
+    .hero {
+
+        min-height: auto;
+        padding-top: 120px;
+        padding-bottom: 70px;
+
+    }
+
+    .hero-overlay {
+
+        min-height: auto;
+        padding: 30px 0;
+
+    }
+
+    .hero-content {
+
+        max-width: 100%;
+        text-align: center;
+        padding: 0 15px;
+
+    }
+
+    .hero-badge {
+
+        margin-top: 20px;
+        margin-bottom: 18px;
+
+    }
+
+    .hero-content h1 {
+
+        font-size: 46px;
+        line-height: 1.15;
+
+    }
+
+    .hero-desc {
+
+        font-size: 15px;
+        line-height: 28px;
+        margin-top: 20px;
+
+    }
+
+    .hero-button {
+
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 30px;
+
+    }
+
+    .btn-gold,
+    .btn-outline-custom {
+
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+
+    }
+
+    .hero-image {
+
+        width: 90%;
+        margin: 40px auto 0;
+        display: block;
+
+    }
+
+    /* =========================
+        SECTION
+========================= */
+
+    .section {
+
+        padding: 70px 0;
+
+    }
+
+    .section-title {
+
+        font-size: 34px;
+
+    }
+
+    .section-subtitle {
+
+        font-size: 16px;
+
+    }
+
+    /* =========================
+        ABOUT
+========================= */
+
+    .about img {
+
+        margin-bottom: 30px;
+
+    }
+
+    .about p {
+
+        text-align: center;
+
+    }
+
+    /* =========================
+        SERVICES
+========================= */
+
+    .service-card {
+
+        padding: 30px 25px;
+
+    }
+
+    .service-card h4 {
+
+        font-size: 25px;
+
+    }
+
+    .service-card p {
+
+        font-size: 15px;
+        line-height: 28px;
+
+    }
+
+    /* =========================
+        PAGE HEADER
+========================= */
+
+    .page-header {
+
+        padding: 120px 0 60px;
+
+    }
+
+    .page-header h1 {
+
+        font-size: 38px;
+
+    }
+
+    /* =========================
+        FOOTER
+========================= */
+
+    .footer {
+
+        text-align: center;
+
+    }
+
+    .footer h5 {
+
+        margin-top: 30px;
+
+    }
+
+    .footer-link {
+
+        padding-left: 0;
+
+    }
+
+    .social-icon {
+
+        justify-content: center;
+
+    }
+
+    .search-box {
+
+        max-width: 100%;
+
+    }
+
+    /* =========================
+        FLOAT BUTTON
+========================= */
+
+    .whatsapp-float {
+
+        width: 55px;
+        height: 55px;
+        right: 18px;
+        bottom: 18px;
+        font-size: 28px;
+
+    }
+
+    #backTop {
+
+        width: 48px;
+        height: 48px;
+        left: 18px;
+        bottom: 18px;
+
+    }
+
+}
+
+/* =====================================
+   RESPONSIVE MOBILE
+   PT. ARUTAMA DEVELOPMENT
+===================================== */
+@media (max-width: 768px) {
+
+    /* Navbar */
+    .navbar-brand {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .navbar-brand img {
+        width: 42px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .nav-item {
+        margin: 8px 0;
+    }
+
+    /* Hero */
+    .hero {
+        min-height: auto;
+        padding: 120px 20px 60px;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 46px;
+        line-height: 1.1;
+    }
+
+    .hero p {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .hero-buttons .btn {
+        width: 90%;
+    }
+
+    /* Statistik */
+    .stats {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .stats-item {
+        width: 45%;
+    }
+
+    /* Semua Judul */
+    .section-title {
+        font-size: 34px;
+    }
+
+    /* Card */
+    .service-card,
+    .project-card,
+    .about-card {
+        margin-bottom: 25px;
+    }
+
+    /* Footer */
+    .footer {
+        text-align: center;
+    }
+
+    .footer .social-icons {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .footer-menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
+/* Home Mobile */
+.mobile-home{
+    display:none;
+    color:#fff;
+    text-decoration:none;
+    font-weight:600;
+    margin-right:15px;
+    transition:.3s;
+}
+
+.mobile-home:hover{
+    color:#d4af37;
+}
+
+@media(max-width:768px){
+
+    .mobile-nav{
+        display:flex;
+        align-items:center;
+    }
+
+    .mobile-home{
+        display:block;
+    }
+
+}

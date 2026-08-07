@@ -437,3 +437,33 @@ color:#666;
     line-height:30px;
 
 }
+/* Tombol Hamburger */
+.navbar-toggler{
+    border: none;
+    box-shadow: none !important;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+/* Mobile */
+@media (max-width:991px){
+
+    .navbar-collapse{
+        background: rgba(11,31,58,.98);
+        padding:20px;
+        margin-top:15px;
+        border-radius:15px;
+    }
+
+    .navbar-nav .nav-link{
+        padding:12px 0;
+        border-bottom:1px solid rgba(255,255,255,.08);
+    }
+
+    .navbar-nav .nav-link:last-child{
+        border-bottom:none;
+    }
+
+}
