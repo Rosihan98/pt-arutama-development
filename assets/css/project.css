@@ -1,0 +1,117 @@
+/*=========================================
+            PROJECT PAGE
+=========================================*/
+
+.page-header {
+
+    background: linear-gradient(135deg, #0B1F3A, #183B67);
+
+    padding: 150px 0 90px;
+
+    color: white;
+
+    text-align: center;
+
+}
+
+.page-header h1 {
+
+    font-size: 50px;
+
+    font-weight: 700;
+
+}
+
+.page-header a {
+
+    color: #D4AF37;
+
+    text-decoration: none;
+
+}
+
+.project-section{
+
+    padding-top:160px;
+
+    padding-bottom:100px;
+
+    background:#fff;
+
+}
+
+.project-card {
+
+    overflow: hidden;
+
+    border-radius: 18px;
+
+    background: white;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
+
+    transition: .4s;
+
+}
+
+.project-card:hover {
+
+    transform: translateY(-10px);
+
+}
+
+.project-card img {
+
+    width: 100%;
+
+    height: 260px;
+
+    object-fit: cover;
+
+}
+
+.project-content {
+
+    padding: 25px;
+
+}
+
+.project-content h4 {
+
+    color: #0B1F3A;
+
+    font-weight: 700;
+
+}
+
+.project-content p {
+
+    color: #666;
+
+}
+
+.counter {
+
+    background: #0B1F3A;
+
+    color: white;
+
+    padding: 80px 0;
+
+}
+
+.counter h2 {
+
+    color: #D4AF37;
+
+    font-size: 48px;
+
+    font-weight: 700;
+
+}
+
+.counter p {
+
+    font-size: 18px;
+
+}

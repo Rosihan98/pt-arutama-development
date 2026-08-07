@@ -1,0 +1,439 @@
+/*==========================================
+        HALAMAN TENTANG KAMI
+==========================================*/
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+
+    background: #f8f9fa;
+
+}
+
+/*==========================================
+        PAGE HEADER
+==========================================*/
+
+.page-header {
+
+    background:
+        linear-gradient(rgba(11, 31, 58, .82),
+            rgba(11, 31, 58, .82)),
+        url("../img/about.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    color: #fff;
+
+    padding: 170px 0 90px;
+
+}
+
+.page-header h1 {
+
+    font-size: 54px;
+
+    font-weight: 700;
+
+}
+
+.page-header p {
+
+    margin-top: 15px;
+
+    color: #ddd;
+
+}
+
+.page-header a {
+
+    color: #D4AF37;
+
+    text-decoration: none;
+
+    font-weight: 600;
+
+}
+
+/*==========================================
+        COMPANY PROFILE
+==========================================*/
+
+.company-profile {
+
+    padding: 100px 0;
+
+    background: #fff;
+
+}
+
+.company-profile img {
+
+    width: 100%;
+
+    border-radius: 20px;
+
+    transition: .4s;
+
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .12);
+
+}
+
+.company-profile img:hover {
+
+    transform: scale(1.03);
+
+}
+
+.section-mini {
+
+    display: inline-block;
+
+    background: #D4AF37;
+
+    color: #0B1F3A;
+
+    padding: 8px 18px;
+
+    border-radius: 50px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+}
+
+.company-profile h2 {
+
+    color: #0B1F3A;
+
+    font-weight: 700;
+
+    margin-top: 20px;
+
+}
+
+.company-profile p {
+
+    color: #666;
+
+    line-height: 32px;
+
+    margin-top: 20px;
+
+}
+
+/*==========================================
+        VISI MISI
+==========================================*/
+
+.vision-mission {
+
+    padding: 100px 0;
+
+    background: #F8F9FA;
+
+}
+
+.vision-mission .card {
+
+    border: none;
+
+    border-radius: 18px;
+
+    transition: .4s;
+
+    padding: 35px;
+
+}
+
+.vision-mission .card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow: 0 20px 35px rgba(0, 0, 0, .12);
+
+}
+
+.vision-mission h3 {
+
+    color: #0B1F3A;
+
+    font-weight: 700;
+
+    margin-bottom: 20px;
+
+}
+
+.vision-mission p {
+
+    color: #666;
+
+    line-height: 30px;
+
+}
+
+.vision-mission ul {
+
+    padding-left: 20px;
+
+}
+
+.vision-mission li {
+
+    margin-bottom: 12px;
+
+    color: #666;
+
+}
+
+/*==========================================
+        SECTION TITLE
+==========================================*/
+
+.section-title {
+
+    font-size: 42px;
+
+    font-weight: 700;
+
+    color: #0B1F3A;
+
+}
+
+.section-subtitle {
+
+    color: #777;
+
+    margin-top: 10px;
+
+    font-size: 18px;
+
+}
+
+/*==========================================
+        RESPONSIVE
+==========================================*/
+
+@media(max-width:991px) {
+
+    .page-header {
+
+        padding: 140px 0 70px;
+
+    }
+
+    .page-header h1 {
+
+        font-size: 40px;
+
+    }
+
+    .company-profile {
+
+        text-align: center;
+
+    }
+
+    .company-profile img {
+
+        margin-bottom: 40px;
+
+    }
+
+}
+.core-values{
+
+padding:100px 0;
+
+background:#fff;
+
+}
+
+.value-box{
+
+background:white;
+
+padding:40px;
+
+border-radius:20px;
+
+text-align:center;
+
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+transition:.4s;
+
+height:100%;
+
+}
+
+.value-box:hover{
+
+transform:translateY(-10px);
+
+}
+
+.value-box i{
+
+font-size:45px;
+
+color:#D4AF37;
+
+margin-bottom:20px;
+
+}
+
+.value-box h4{
+
+font-weight:700;
+
+color:#0B1F3A;
+
+margin-bottom:15px;
+
+}
+
+.value-box p{
+
+line-height:28px;
+
+color:#666;
+
+}
+/*==========================================
+        Nilai Perusahaan
+==========================================*/
+.core-values{
+
+padding:100px 0;
+
+background:#e3e6e9;
+
+}
+
+.value-box{
+
+background:white;
+
+padding:40px;
+
+border-radius:20px;
+
+text-align:center;
+
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+transition:.4s;
+
+height:100%;
+
+}
+
+.value-box:hover{
+
+transform:translateY(-10px);
+
+}
+
+.value-box i{
+
+font-size:45px;
+
+color:#f1f1f1;
+
+margin-bottom:20px;
+
+}
+
+.value-box h4{
+
+font-weight:700;
+
+color:#ccae29;
+
+margin-bottom:15px;
+
+}
+
+.value-box p{
+
+line-height:28px;
+
+color:#666;
+
+}
+
+/*=========================================
+        WHY CHOOSE US
+=========================================*/
+
+.why-us{
+    padding:100px 0;
+    background:#fff;
+}
+
+.choose-card{
+
+    background:#fff;
+
+    border-radius:20px;
+
+    padding:40px 30px;
+
+    text-align:center;
+
+    transition:.35s;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.05);
+
+    height:100%;
+}
+
+.choose-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 25px 50px rgba(0,0,0,.12);
+
+}
+
+.choose-card i{
+
+    width:80px;
+
+    height:80px;
+
+    line-height:80px;
+
+    border-radius:50%;
+
+    background:var(--secondary);
+
+    color:var(--primary);
+
+    font-size:34px;
+
+    margin-bottom:25px;
+
+}
+
+.choose-card h4{
+
+    color:var(--primary);
+
+    font-weight:700;
+
+    margin-bottom:15px;
+
+}
+
+.choose-card p{
+
+    color:#666;
+
+    line-height:30px;
+
+}

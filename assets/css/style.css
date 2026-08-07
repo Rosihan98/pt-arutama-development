@@ -1,0 +1,1062 @@
+/* ======================================
+   PT. ARUTAMA DEVELOPMENT
+====================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+
+    background: #ffffff;
+
+    color: #333;
+
+    overflow-x: hidden;
+
+}
+
+/* Warna Perusahaan */
+
+:root {
+
+    --primary: #194b8d;
+
+    --primary-light: #2564b1;
+
+    --secondary: #D4AF37;
+
+    --white: #FFFFFF;
+
+    --light: #F8F9FA;
+
+    --dark: #222222;
+
+    --text: #333333;
+
+    --text-light: #666666;
+
+    --text-muted: #777777;
+
+    --footer: #1a427a;
+
+}
+
+/* Utility */
+
+.section-title {
+
+    font-size: 40px;
+
+    font-weight: 700;
+
+    color: var(--primary);
+
+}
+
+.section-subtitle {
+
+    color: #777;
+
+}
+
+/*=========================================
+        NAVBAR
+==========================================*/
+
+.custom-navbar {
+
+    background: transparent;
+
+    padding: 20px 0;
+
+    transition: all .4s ease;
+
+    z-index: 9999;
+
+}
+
+/* Navbar ketika discroll */
+
+.custom-navbar.scrolled {
+
+    background: rgba(11, 31, 58, .96);
+
+    backdrop-filter: blur(10px);
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .15);
+
+    padding: 12px 0;
+
+}
+
+.navbar-brand {
+
+    color: white !important;
+
+}
+
+.navbar-brand small {
+
+    color: #D4AF37;
+
+}
+
+.nav-link {
+
+    color: white !important;
+
+    margin-left: 20px;
+
+    font-weight: 500;
+
+    transition: .3s;
+
+}
+
+.nav-link:hover {
+
+    color: #D4AF37 !important;
+
+}
+
+.btn-warning {
+
+    background: #D4AF37;
+
+    border: none;
+
+    color: #175ebb;
+
+    font-weight: 600;
+
+    border-radius: 30px;
+
+    padding: 10px 25px;
+
+}
+
+.btn-warning:hover {
+
+    background: white;
+
+}
+
+.custom-navbar {
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    z-index: 9999;
+
+    background: rgba(11, 31, 58, .95);
+
+    backdrop-filter: blur(10px);
+
+    transition: all .35s ease;
+
+}
+
+/*=========================================
+        NAVBAR SOCIAL
+=========================================*/
+
+.navbar-social {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+
+    margin-left: 30px;
+
+}
+
+.navbar-social a {
+
+    width: 42px;
+
+    height: 42px;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: #ffffff;
+
+    font-size: 20px;
+
+    text-decoration: none;
+
+    transition: .35s;
+
+    background: rgba(255, 255, 255, .08);
+
+}
+
+.navbar-social a:hover {
+
+    background: var(--secondary);
+
+    color: var(--primary);
+
+    transform: translateY(-3px);
+
+}
+
+/*=================================
+        HERO SECTION
+==================================*/
+
+.hero {
+
+    min-height: 100vh;
+
+    background: url("../img/hero.jpeg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    position: relative;
+
+}
+
+.hero-badge {
+
+    display: inline-block;
+
+    padding: 10px 20px;
+
+    background: var(--secondary);
+
+    color: #f8f9fa;
+
+    border-radius: 50px;
+
+    font-weight: 600;
+
+    margin-bottom: 20px;
+
+}
+
+.hero-title {
+
+    font-size: 60px;
+
+    font-weight: 700;
+
+    line-height: 1.2;
+
+}
+
+.hero-title span {
+
+    color: var(--secondary);
+
+}
+
+.hero-desc {
+
+    margin-top: 25px;
+
+    line-height: 34px;
+
+    font-size: 18px;
+
+    color: #0c0707;
+
+}
+
+.hero-button {
+
+    margin-top: 40px;
+
+}
+
+.btn-gold {
+
+    background: var(--secondary)37;
+
+    color: #dbc929;
+
+    padding: 14px 35px;
+
+    border-radius: 40px;
+
+    text-decoration: none;
+
+    font-weight: 600;
+
+    transition: .3s;
+
+}
+
+.btn-gold:hover {
+
+    background: rgb(243, 239, 239);
+
+    transform: translateY(-3px);
+
+}
+
+.hero-image {
+
+    width: 95%;
+
+    animation: float 4s ease-in-out infinite;
+
+}
+
+@keyframes float {
+
+    0% {
+
+        transform: translateY(0px);
+
+    }
+
+    50% {
+
+        transform: translateY(-15px);
+
+    }
+
+    100% {
+
+        transform: translateY(0px);
+
+    }
+
+}
+
+.hero-overlay {
+
+    width: 100%;
+
+    min-height: 100vh;
+
+    background: linear-gradient(rgba(11, 31, 58, .82),
+
+            rgba(11, 31, 58, .72));
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+.hero-content {
+
+    max-width: 700px;
+
+    color: white;
+
+}
+
+.hero-content h1 {
+
+    font-size: 72px;
+
+    font-weight: 700;
+
+}
+
+/*======================================
+            ABOUT
+=======================================*/
+
+.about {
+
+    padding: 100px 0;
+
+    background: #ffffff;
+
+}
+
+.section-mini {
+
+    background: var(--secondary);
+
+    color: #0B1F3A;
+
+    padding: 8px 20px;
+
+    border-radius: 12px;
+
+    font-weight: 600;
+
+}
+
+.about img {
+
+    border-radius: 20px;
+
+    transition: .5s;
+
+}
+
+.about img:hover {
+
+    transform: scale(1.03);
+
+}
+
+.about p {
+
+    color: #666;
+
+    line-height: 32px;
+
+}
+
+/*=================================
+        TRUSTED
+==================================*/
+
+.trusted {
+
+    background: #ffffff;
+
+}
+
+.trusted-title {
+
+    color: var(--primary);
+
+    font-weight: 700;
+
+    font-size: 32px;
+
+}
+
+.trusted p {
+
+    color: #777;
+
+}
+
+.partner-logo {
+
+    width: 120px;
+
+    filter: grayscale(100%);
+
+    opacity: .7;
+
+    transition: .4s;
+
+}
+
+.partner-logo:hover {
+
+    filter: none;
+
+    opacity: 1;
+
+    transform: scale(1.08);
+
+}
+
+/*=========================================
+            SERVICES
+==========================================*/
+
+.services {
+
+    background: #F8F9FA;
+
+    padding: 100px 0;
+
+}
+
+.service-card {
+
+    background: #ffffff;
+
+    padding: 40px 30px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 08px 20px rgba(0, 0, 0, .08);
+
+    transition: .35s ease;
+
+    height: 100%;
+
+}
+
+.service-card:hover {
+
+    transform: translateY(-12px);
+
+    box-shadow: 0 08px 20px rgba(0, 0, 0, .15);
+
+}
+
+.service-icon {
+
+    width: 80px;
+
+    height: 80px;
+
+    line-height: 80px;
+
+    border-radius: 50%;
+
+    background: var(--secondary);
+
+    color: #0B1F3A;
+
+    font-size: 32px;
+
+    margin-bottom: 25px;
+
+}
+
+.service-card h4 {
+
+    font-weight: 700;
+
+    margin-bottom: 15px;
+
+    color: #0B1F3A;
+
+}
+
+.service-card p {
+
+    color: #666;
+
+    line-height: 30px;
+
+}
+
+/*==================================================
+                PAGE HEADER
+==================================================*/
+
+.page-header {
+
+    background: linear-gradient(135deg, #0B1F3A, #183B67);
+
+    padding: 140px 0 80px;
+
+    color: #fff;
+
+}
+
+.page-header h1 {
+
+    font-size: 52px;
+
+    font-weight: 700;
+
+}
+
+.page-header p {
+
+    margin-top: 15px;
+
+    color: #dcdcdc;
+
+}
+
+.page-header a {
+
+    color: var(--secondary);
+
+    text-decoration: none;
+
+    font-weight: 600;
+
+}
+
+.page-header span {
+
+    margin: 0 10px;
+
+}
+
+/*==================================================
+            COMPANY PROFILE
+==================================================*/
+
+.company-profile {
+
+    padding: 100px 0;
+
+    background: var(--white);
+
+}
+
+.company-profile img {
+
+    border-radius: 20px;
+
+    transition: .4s;
+
+}
+
+.company-profile img:hover {
+
+    transform: scale(1.02);
+
+}
+
+.company-profile p {
+
+    color: #666;
+
+    line-height: 32px;
+
+}
+
+/*==================================================
+                    FOOTER
+==================================================*/
+
+.footer {
+
+    background: linear-gradient(135deg, #08182E, #0B1F3A);
+
+    color: #fff;
+
+    padding: 55px 0 20px;
+
+}
+
+.footer-title {
+
+    color: rgb(243, 187, 66);
+
+    font-weight: 700;
+
+    margin-bottom: 20px;
+
+}
+
+.footer h5 {
+
+    margin-bottom: 12px;
+
+    font-size: 20px;
+
+}
+
+.footer p {
+
+    line-height: 26px;
+
+    margin-bottom: 8px;
+
+    color: #d8d8d8;
+
+}
+
+.footer-link li {
+
+    margin-bottom: 8px;
+
+}
+
+.footer-link a {
+
+    color: #d4d4d4;
+
+    text-decoration: none;
+
+    transition: .3s;
+
+}
+
+.footer-link a:hover {
+
+    color: var(--secondary);
+
+    padding-left: 8px;
+
+}
+
+.footer hr {
+
+    margin: 28px 0;
+
+    border-color: rgba(255, 255, 255, .12);
+
+}
+
+.social-icon {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 18px;
+
+}
+
+.social-icon a {
+
+    width: 48px;
+
+    height: 48px;
+
+    background: rgba(151, 23, 23, 0.08);
+
+    border-radius: 50%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: white;
+
+    text-decoration: none;
+
+    transition: .35s;
+
+    font-size: 20px;
+
+}
+
+.social-icon a:hover {
+
+    background: var(--secondary);
+
+    color: var(--primary);
+
+    transform: translateY(-6px);
+
+}
+
+.copyright {
+
+    color: #bdbdbd;
+
+    font-size: 15px;
+
+}
+
+.btn-outline-custom {
+
+    margin-left: 15px;
+
+    border: 2px solid white;
+
+    color: white;
+
+    padding: 14px 35px;
+
+    border-radius: 40px;
+
+    text-decoration: none;
+
+    font-weight: 600;
+
+    transition: .3s;
+
+}
+
+.btn-outline-custom:hover {
+
+    background: white;
+
+    color: var(--primary);
+
+}
+
+.footer-cta {
+
+    padding-bottom: 60px;
+
+    border-bottom: 1px solid rgba(255, 255, 255, .15);
+
+}
+
+.footer-cta h2 {
+
+    font-size: 42px;
+
+    font-weight: 700;
+
+}
+
+.footer-cta p {
+
+    color: #dcdcdc;
+
+    margin-top: 15px;
+
+    font-size: 18px;
+
+    line-height: 32px;
+
+}
+
+.footer .form-control {
+
+    border: none;
+
+    border-radius: 30px 0 0 30px;
+
+    padding: 12px 18px;
+
+}
+
+.footer .input-group .btn {
+
+    border-radius: 0 30px 30px 0;
+
+}
+
+/*=========================================
+        SOCIAL & SEARCH
+==========================================*/
+
+.search-box {
+
+    max-width: 300px;
+
+}
+
+.search-box .form-control {
+
+    border: none;
+
+    border-radius: 30px 0 0 30px;
+
+    padding: 7px 15px;
+
+    height: 40px;
+
+}
+
+.search-box .btn {
+
+    border-radius: 0 30px 30px 0;
+
+    padding: 0 22px;
+
+}
+
+.search-box .form-control:focus {
+
+    box-shadow: none;
+
+}
+
+.search-box {
+
+    max-width: 450px;
+
+}
+
+.social-icon {
+
+    display: flex;
+
+    gap: 12px;
+
+    margin-top: 10px;
+
+}
+
+.social-icon a {
+
+    width: 48px;
+
+    height: 48px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    border-radius: 50%;
+
+    background: rgba(12, 11, 11, 0.08);
+
+    color: white;
+
+    transition: .20s ease;
+
+    text-decoration: none;
+
+}
+
+.social-icon a:hover {
+
+    background: var(--secondary);
+
+    color: var(--primary);
+
+    transform: translateY(-5px);
+
+}
+
+/*=========================================
+        FLOATING WHATSAPP
+=========================================*/
+
+.whatsapp-float {
+
+    position: fixed;
+
+    right: 30px;
+
+    bottom: 30px;
+
+    width: 65px;
+
+    height: 65px;
+
+    border-radius: 50%;
+
+    background: #25D366;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 32px;
+
+    box-shadow: 0 12px 25px rgba(0, 0, 0, .25);
+
+    transition: .35s;
+
+    z-index: 9999;
+
+}
+
+.whatsapp-float:hover {
+
+    transform: scale(1.1);
+
+    color: white;
+
+}
+
+#backTop {
+
+    position: fixed;
+
+    left: 30px;
+
+    bottom: 30px;
+
+    width: 55px;
+
+    height: 55px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background: #0B1F3A;
+
+    color: white;
+
+    cursor: pointer;
+
+    display: none;
+
+    z-index: 999;
+
+    transition: .3s;
+
+}
+
+#backTop:hover {
+
+    background: #D4AF37;
+
+    color: #0B1F3A;
+
+}
+
+.nav-link.active {
+
+    color: var(--secondary) !important;
+
+    font-weight: 700;
+
+}
+
+/*====================================
+    PAGE TOP SPACING
+=====================================*/
+
+.page-section {
+
+    padding-top: 160px;
+
+    padding-bottom: 100px;
+
+}
+
+/*==================================================
+            GLOBAL PAGE LAYOUT
+==================================================*/
+
+.page-section {
+
+    padding-top: 160px;
+    padding-bottom: 100px;
+
+}
+
+.page-header-space {
+
+    margin-top: 90px;
+
+}
+
+.section {
+
+    padding: 100px 0;
+
+}
+
+.section-light {
+
+    background: #F8F9FA;
+
+}
+
+.section-white {
+
+    background: #FFFFFF;
+
+}
